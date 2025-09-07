@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="../HTML/fontawesome-free-7.0.0-web/fontawesome-free-7.0.0-web/css/all.css">
+    <style>
+        body {
+            background-image: url(../../../../Pics/SlideShow/wallpaperflare.com_wallpaper\ \(4\).jpg);
+            background-size: cover;
+        }
+        #box{
+            border: 2px solid black;
+            height: 270px;
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 120px auto;
+            padding-top: 110px; 
+            color: transparent;
+            backdrop-filter: blur(20px);
+            background-size: cover;
+        }
+        #box:hover{
+            box-shadow: 0 0 100px yellow; 
+        }
+        input{
+            margin: 100px 0;
+            border: none;
+            padding: 5px; 
+            color: cyan;
+        }
+        input:hover{
+            box-shadow: 0 0 4px chartreuse;
+        }
+        button{
+            margin-top: 20px;
+            padding: 5px 15px;
+            border: none;
+            background-color: transparent;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: coral;
+            cursor: pointer;
+        }
+        .xyz input{
+            border-bottom: 2px dotted crimson;
+            padding: 5px;
+            margin: 10px 0;
+            background-color: transparent;
+        }
+        i{
+            color: cyan;
+        }
+        i.fa-solid.fa-circle-user {
+            font-size: 70px;
+            text-align: center;
+            margin-top: -80px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <i class="fa-solid fa-circle-user"></i>
+        <div class="xyz">
+            <i class="fa fa-user icon"></i>
+            <input type="text" placeholder="Username">
+        </div>
+        <div class="xyz">
+            <i class="fa fa-lock icon"></i>
+            <input type="password" placeholder="Password">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </div>
+</body>
+</html>
